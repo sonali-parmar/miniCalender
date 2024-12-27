@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to left,rgb(32, 7, 51),rgb(45, 21, 117));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 250px;
+    width: 320px;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+}
+
+.container .date-day{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .date-day h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+.container .month-year{
+    background-color: rgb(244, 55, 8);
+    width: 45%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+    color:antiquewhite;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
